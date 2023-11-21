@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#373737">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="700dp">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <GridLayout
+                android:id="@+id/GRID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </GridLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="215dp"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:text="10/10"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:ignore="TextSizeCheck"></TextView>
+
+</LinearLayout>
